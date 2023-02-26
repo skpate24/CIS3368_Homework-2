@@ -1,3 +1,11 @@
+# Smart Patel - 196227 
+# CIS 3368 - 25450
+# Homework#02 
+# references used in this code: 
+# https://www.w3schools.com/python/python_mysql_getstarted.asp, https://www.w3schools.com/python/python_mysql_insert.asp, 
+# https://www.guru99.com/restful-web-services.html, https://pythonbasics.org/flask-rest-api/, 
+
+
 import pymysql
 from app import app
 from config import mysql
@@ -6,7 +14,7 @@ from flask import flash, request
 
 @app.route("/",methods=['Get'])
 def home():
-    return "<center><h1> Welcome to my API Assignment!</h1> <br><h2> Name: Smart Patel</h2></center>"
+    return "<center><h1> Welcome to my API Assignment!</h1> <br><h2> Name: Smart Patel - 1967227 </h2></center>"
 
 
 @app.route('/snowboard/insert', methods=['POST'])
